@@ -454,7 +454,7 @@ ext.IS_COMPILE_HARFBUZZ = Boolean.parseBoolean(COMPILE_HARFBUZZ)
 defineProperty("COMPILE_PARFAIT", "false")
 ext.IS_COMPILE_PARFAIT = Boolean.parseBoolean(COMPILE_PARFAIT)
 
-defineProperty("STATIC_BUILD", "false")
+defineProperty("STATIC_BUILD", "true")
 ext.IS_STATIC_BUILD = Boolean.parseBoolean(STATIC_BUILD)
 
 if (IS_STATIC_BUILD && IS_COMPILE_MEDIA) {
